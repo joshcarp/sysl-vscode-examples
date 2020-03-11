@@ -1,0 +1,6 @@
+# importing with "/" shouldn't error
+import myfolder/other.sysl
+
+# (this isn't actually an error)
+_:
+    ...

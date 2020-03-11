@@ -1,0 +1,3 @@
+App2:
+    # inline alias shouldn't error
+    !alias mySecondType: myType

@@ -1,0 +1,18 @@
+import other.sysl
+
+# App should be a different color
+App:
+    !type myType:
+        # field name and types should be different
+        content <: string
+    # non REST Endpoint Names should be different color (?)
+    Endpoint:
+        # return statements should be highlighted
+        return ok <: myType # Comments after lines should be highlighted
+    # Putting whitespaces in places shouldn't break syntax highlighting (GET should be highlighted)
+    !type mySecondType:
+        #Attributes should be highlighted
+        content <: string [json_tag= "foobar"] 
+
+
+
